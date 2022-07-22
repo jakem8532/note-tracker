@@ -10,7 +10,7 @@ class Database {
         return readFile(this.path, 'utf-8').then(data => JSON.parse(data))
     }
 
-    write() {
+    write(data) {
         return writeFile(this.path, JSON.stringify(data))
     }
 
