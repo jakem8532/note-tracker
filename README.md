@@ -8,7 +8,7 @@
 
   ## Deployed Application
 
-  * [Note Tracker Application](https://jakes-note-taker.herokuapp.com/notes)
+  * [Note Tracker Application](https://jakes-note-taker.herokuapp.com/)
 
   ## Table of Contents
 
