@@ -17,6 +17,10 @@ class Database {
     push(note) {
         return this.getAll().then(data => this.write([...data, note]))
     }
+
+    delete(data) {
+        this.getAll()
+    }
 }
 
 module.exports = Database
